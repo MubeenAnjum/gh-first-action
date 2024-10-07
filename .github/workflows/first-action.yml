@@ -1,5 +1,5 @@
 name: First Workflow
-on: workflow-dispatch
+on: workflow_dispatch
 jobs:
   first-job:
     runs-on: windows-latest
@@ -8,3 +8,4 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye!"
+
